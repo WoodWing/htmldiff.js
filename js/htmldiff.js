@@ -644,7 +644,7 @@
     for (i = 0; i < ops.length; i++) {
       op = ops[i];
       if (op.action === 'equal') {
-        amount = op.end_in_before - op.start_in_before;
+        amount = (op.end_in_before - op.start_in_before) + 1; // +1 since the array is 0 based
         for (j = 0; j < amount; j++) {
           before_token = before[op.start_in_before + j];
           after_token = after[op.start_in_after + j];

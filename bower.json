@@ -2,7 +2,7 @@
   "name": "htmldiff",
   "description": "HTML Diffing in JavaScript",
   "main": "./js/htmldiff.js",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/WoodWing/htmldiff.js",
   "authors": [
     "The Network Inc.",
