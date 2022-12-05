@@ -1,6 +1,6 @@
 {
   "name": "@woodwing/htmldiff",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "HTML Diffing in JavaScript",
   "main": "js/htmldiff.js",
   "scripts": {
