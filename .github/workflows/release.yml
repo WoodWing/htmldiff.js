@@ -18,6 +18,5 @@ jobs:
 
             # Publish to GitHub Packages
             - run: npm publish
-              working-directory: ./dist/angular2-notifications
               env:
                   NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
