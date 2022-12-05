@@ -1,1 +1,13 @@
-node_modules
+# Node
+node_modules/*
+npm-debug.log
+
+# JetBrains
+.idea
+.project
+.settings
+.idea/*
+*.iml
+
+# VS Code
+.vscode/*
